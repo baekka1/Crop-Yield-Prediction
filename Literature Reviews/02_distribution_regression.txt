@@ -20,9 +20,9 @@ Results: State-of-the-art empirical performance on synthetic and real-world data
 ### Introduction
 Definition: Distribution regression (DR) on sequential data means learning a mapping from a group of data streams (time series) to a single target value.
 Examples:
-- Thermodynamics → estimate gas temperature from particle trajectories.
-- Finance → estimate mean-reversion parameters from market dynamics.
-- Agriculture → predict crop yield from high-resolution climate data.
+- Thermodynamics - estimate gas temperature from particle trajectories.
+- Finance - estimate mean-reversion parameters from market dynamics.
+- Agriculture - predict crop yield from high-resolution climate data.
 Prior work: DR has been applied to vector inputs and extended to images and persistence diagrams, but sequential data (multivariate time series) remains underexplored.
 Challenges with sequential data:
 - Sequences are ordered (non-exchangeable).
